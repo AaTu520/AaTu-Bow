@@ -1,0 +1,21 @@
+{
+  "school": "spell_power:physical_melee",
+  "secondary_archetype": "ANY",
+  "range": 0,
+  "tier": 1,
+  "type": "ACTIVE",
+  "active": {
+    "cast": {"duration": 0, "haste_affected": false}
+  },
+  "target": {"type": "NONE"},
+  "deliver": {
+    "type": "CUSTOM",
+    "custom": {"handler": "aatu_bow:fused_polar_night_radiance"}
+  },
+  "cost": {
+    "exhaust": 0,
+    "durability": 0,
+    "cooldown": {"duration": 0, "hosting_item": false, "haste_affected": false}
+  },
+  "tooltip": {"show_range": false}
+}

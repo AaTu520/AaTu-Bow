@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.blockforge.aatu_bow.mixin.compat",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ModifiersComponentMixin",
+    "ModifiersAnvilMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

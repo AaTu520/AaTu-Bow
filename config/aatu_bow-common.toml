@@ -1,0 +1,108 @@
+#AaTu bow and sword skills. Distances are in blocks; cooldowns are in ticks.
+[skill]
+	#Sword skill cooldown in ticks.
+	# Default: 5
+	# Range: 1 ~ 2400
+	cooldownTicks = 5
+	#Allow bow, sword and fused skills to damage players and neutral or friendly creatures.
+	#When disabled, skills target enemy mobs and protect player-owned pets.
+	damagePlayersAndNeutralMobs = false
+	#Minimum random bonus damage multiplier, applied to the weapon's attack damage.
+	# Default: 1.0
+	# Range: 1.0 ~ 99.0
+	additionalDamageMin = 1.0
+	#Maximum random bonus damage multiplier, applied to the weapon's attack damage.
+	# Default: 50.0
+	# Range: 1.0 ~ 99.0
+	additionalDamageMax = 50.0
+	#Sword skill damage corridor length along the player's view direction, in blocks.
+	# Default: 64
+	# Range: 1 ~ 128
+	length = 64
+	#Sword skill damage corridor width, in blocks.
+	# Default: 16
+	# Range: 1 ~ 32
+	width = 16
+	#Sword skill damage corridor height, in blocks.
+	# Default: 16
+	# Range: 1 ~ 32
+	height = 16
+
+#Bow cherry rain and chain hits.
+[bowRain]
+	#Cherry rain radius around the arrow impact, in blocks.
+	# Default: 8.0
+	# Range: 1.0 ~ 32.0
+	radius = 8.0
+	#Total height of the damage area around the arrow impact, in blocks.
+	# Default: 16.0
+	# Range: 1.0 ~ 64.0
+	height = 16.0
+	#Number of chain hits after the initial cherry rain hit.
+	# Default: 10
+	# Range: 1 ~ 64
+	chainHitCount = 10
+	#Interval between chain hits, in ticks. 20 ticks equal about one second.
+	# Default: 2
+	# Range: 1 ~ 40
+	chainIntervalTicks = 2
+
+#Anvil skill fusion.
+[fusion]
+	#Experience levels required for one anvil fusion. 0 makes fusion free.
+	# Default: 80
+	# Range: 0 ~ 1000
+	fusionLevelCost = 80
+
+#Particle visuals.
+[client]
+	#Bow particle effect range multiplier. 1 keeps the original visual size.
+	# Default: 1.0
+	# Range: 0.25 ~ 2.0
+	bowEffectRangeScale = 1.0
+	#Sword particle effect range multiplier. 1 keeps the original visual size.
+	# Default: 1.0
+	# Range: 0.25 ~ 2.0
+	swordEffectRangeScale = 1.0
+	#Particle density for sword slash lines and target-attached rays. Higher values make denser lines and increase client load.
+	# Default: 6
+	# Range: 1 ~ 16
+	particleDensity = 6
+	#Number of slash lines generated inside the sword skill corridor.
+	# Default: 32
+	# Range: 1 ~ 128
+	slashLineCount = 32
+	#Petals spawned per tick for each bow cherry rain. Higher values increase client load.
+	# Default: 16
+	# Range: 1 ~ 32
+	bowRainParticleCount = 16
+	#Cherry particles between each pair of bow chain lightning points. 0 hides these particles.
+	# Default: 31
+	# Range: 0 ~ 128
+	bowLightningParticleCount = 31
+	#Number of particle rays attached to each surviving target after a skill hit.
+	# Default: 3
+	# Range: 1 ~ 32
+	lingeringLineCount = 3
+	#Diffusion particles per sword slash line. 0 disables diffusion; 1 or 2 uses 3 to include all particle types. Higher values increase client load.
+	# Default: 32
+	# Range: 0 ~ 64
+	swordLineDiffusionParticleCount = 32
+	#Base speed of the three white sword arcs, in blocks per tick. Raised when needed to pass the slash lines first.
+	# Default: 4.5
+	# Range: 0.01 ~ 100.0
+	swordArcFlightSpeed = 4.5
+	#Travel distance of the three white sword arcs, in blocks. Raised when needed to pass the slash lines.
+	# Default: 64.0
+	# Range: 1.0 ~ 128.0
+	swordArcLength = 64.0
+	#Width of the three nearly overlapping white sword arcs, in blocks.
+	# Default: 23.3
+	# Range: 0.5 ~ 64.0
+	swordArcWidth = 23.3
+	#Show the three white sword arcs.
+	showSwordArcs = true
+	#Duration of the bow cherry rain visuals, in seconds.
+	# Default: 4.0
+	# Range: 0.1 ~ 30.0
+	aatuBowParticleLifetimeSeconds = 4.0

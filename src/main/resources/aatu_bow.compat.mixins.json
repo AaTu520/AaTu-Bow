@@ -1,0 +1,19 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "cn.blockforge.aatu_bow.mixin.compat",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ModifiersHandlerMixin",
+    "SpellEngineContainerMixin",
+    "SpellEngineCooldownMixin"
+  ],
+  "client": [
+    "ConfiguredNeoForgeConfigMixin",
+    "ModifiersNameMixin",
+    "SpellEngineHotbarMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "access": "MAGIC",
+  "access_param": "",
+  "pool": "",
+  "slot": "",
+  "max_spell_count": 0,
+  "spell_ids": ["rpg_series:swift_strikes"],
+  "extra_tier_binding": 0
+}

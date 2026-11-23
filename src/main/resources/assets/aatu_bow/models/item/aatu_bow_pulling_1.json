@@ -1,0 +1,6 @@
+{
+  "parent": "aatu_bow:item/aatu_bow",
+  "textures": {
+    "layer0": "aatu_bow:item/aatu_bow_pulling_1"
+  }
+}
