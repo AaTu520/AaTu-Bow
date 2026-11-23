@@ -223,4 +223,4 @@ Better Combat 被声明为可选依赖。普通攻击产生的有效伤害会走
 
 ## 许可
 
-本模组采用 GNU General Public License v3.0（`GPL-3.0`）开源，完整条款见仓库根目录的 `LICENSE` 与模组 JAR 内的 `META-INF/LICENSE.txt`。
+本模组采用 GNU Lesser General Public License 第 3 版或任何后续版本（`LGPL-3.0-or-later`）开源，完整条款见仓库根目录的 `LICENSE` 与模组 JAR 内的 `META-INF/LICENSE.txt`。
